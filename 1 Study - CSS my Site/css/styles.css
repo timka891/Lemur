@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: Gainsboro;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 50px;
+  font-family: 'Sacramento', cursive;
+  color: Gainsboro;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: grey;
+    font-weight: normal;
+    line-height: 2;
+}
+
+hr{
+  border-style: dotted;
+  border-color: DarkGoldenRod;
+  border-width: 10px;
+  border-bottom: none;
+  width: 5%;
+
+}
+
+/* TOP SECTION */
+
+.top {
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+  height: 300px;
+}
+.sub-head{
+  color: DarkGoldenRod;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 100px;
+}
+
+.lmr1 {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.lmr2 {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+/* .jngl {
+  height: 300px;
+  width: 150px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.jngl2 {
+  transform: scaleX(-1);
+  height: 425px;
+  width: 200px;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+*/
+
+/* MID SECTION */
+.profile{
+  background-color: Gainsboro;
+padding-top: 50px;
+padding-bottom: 100px;
+}
+.pic{
+  margin-top: 50px;
+}
+.h{
+  color: DarkGoldenRod;
+}
+.middle-container{
+  background-color: white;
+}
+.skills{
+  margin: 50px auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.s{
+  margin-top: 50px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+    text-align: left;
+}
+.jump{
+  float: left;
+  margin-right: 20px;
+}
+.a{
+  padding-top: 20px;
+}
+.climb{
+  transform: rotate(90deg);
+  float: right;
+}
+
+/* BOTTOM SECTION */
+
+.contact-me{
+  background-color: Gainsboro;
+  padding-top: 50px;
+  padding-bottom: 125px;
+}
+
+.btn{
+  color: DarkGoldenRod;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+}
+.btn:hover{
+  color: gold;
+}
+
+.bottom-container{
+  margin-top: 25px;
+  padding-top: 50px;
+  background-color: black;
+  padding-bottom: 25px;
+}
+.footer-link{
+  color: Gainsboro;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 0.75rem;
+  text-decoration: none;
+  margin: auto 25px;
+}
+.footer-link:hover{
+  color: white;
+}
+.credits{
+  font-size: 0.5rem;
+  color: Gainsboro;
+  text-decoration: none;
+}
